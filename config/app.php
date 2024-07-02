@@ -197,11 +197,12 @@ return [
         App\Hooks\Compat::class,
         App\Hooks\Mail::class,
         App\Hooks\Widgets::class,
-        App\Hooks\Pages\Home::class,
+        App\Hooks\Metaboxes\Home::class,
+        App\Hooks\Metaboxes\Ratatest::class,
         // App\Hooks\CustomPosts\LieuController::class,
         // App\Hooks\CustomPosts\Membre::class,
         // App\Hooks\CustomPosts\Domaine::class,
-        App\Hooks\Posts\Post::class,
+        // App\Hooks\Posts\Post::class,
     ],
 
     /*

@@ -1,0 +1,37 @@
+[
+    {
+        "nom": "Dupont",
+        "prenom": "Jean",
+        "tel": 123456789,
+        "description": "Ingénieur informatique",
+        "image": "http://127.0.0.1:8080/content/uploads/2024/06/skto45-people-1.jpg"
+    },
+    {
+        "nom": "Martin",
+        "prenom": "Marie",
+        "tel": 234567890,
+        "description": "Professeure des écoles",
+        "image": "http://127.0.0.1:8080/content/uploads/2024/06/skto45-people-2.jpg"
+    },
+    {
+        "nom": "Dubois",
+        "prenom": "Léa",
+        "tel": 345678901,
+        "description": "Commerciale",
+        "image": "http://127.0.0.1:8080/content/uploads/2024/06/skto45-people-3.jpg"
+    },
+    {
+        "nom": "Lefèvre",
+        "prenom": "Paul",
+        "tel": 456789012,
+        "description": "Comptable",
+        "image": "http://127.0.0.1:8080/content/uploads/2024/06/skto45-people-4.jpg"
+    },
+    {
+        "nom": "Roux",
+        "prenom": "Thomas",
+        "tel": 567890123,
+        "description": "Webdesigner",
+        "image": "http://127.0.0.1:8080/content/uploads/2024/06/skto45-people-5.jpg"
+    }
+]

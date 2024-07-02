@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Hooks\Pages;
+namespace App\Hooks\Metaboxes;
 
 use Themosis\Support\Facades\Field;
 use Themosis\Support\Facades\Metabox;

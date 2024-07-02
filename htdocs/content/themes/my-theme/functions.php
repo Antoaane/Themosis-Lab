@@ -136,3 +136,14 @@ $theme->support($theme->config('support', []));
 |
 */
 $theme->templates($theme->config('templates', []));
+
+
+$pages_path = realpath(__DIR__ . '../../../../../app/Hooks/Pages/');
+foreach (glob($pages_path . '/*.php') as $file) {
+    include $file;
+}
+
+$posts_path = realpath(__DIR__ . '../../../../../app/Hooks/Posts/');
+foreach (glob($posts_path . '/*.php') as $file) {
+    include $file;
+}

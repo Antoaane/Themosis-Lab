@@ -9,7 +9,7 @@ class MembreController extends Controller
     public function getAllMembres() : array
     {
         $post = $this->getPosts();
-        dd($this->filterMembre($post));
+        // dd($this->filterMembre($post));
         return $this->filterMembre($post);
     }
 
@@ -23,7 +23,7 @@ class MembreController extends Controller
                 'photo' => wp_get_attachment_image_src(get_post_meta($membre->ID, 'membre_photo', true),'full')[0]??"",
                 'nom' => get_post_meta($membre->ID, 'membre_nom', true)??"",
                 'prenom' => get_post_meta($membre->ID, 'membre_prenom', true)??"",
-                'poste' => get_post_meta($membre->ID, 'membre_poste', true)??"",
+                'description' => get_post_meta($membre->ID, 'membre_description', true)??"",
                 'expertises' => $this->getExpertiseRelations($membre->ID),
             ];
         }
@@ -56,7 +56,7 @@ class MembreController extends Controller
         $wp_query = new WP_Query($args);
         $relation = $wp_query;
 
-        dd($relation);
+        // dd($relation);
     
         $expertises[] = [
             'id' => $relation->ID,

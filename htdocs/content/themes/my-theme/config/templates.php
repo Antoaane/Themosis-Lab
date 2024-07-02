@@ -10,4 +10,5 @@
  */
 return [
     'home' => [__('Accueil', THEME_TD), ['page']],
+    'ratatest' => [__('Ratatest', THEME_TD), ['page']],
 ];
